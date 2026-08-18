@@ -1,0 +1,30 @@
+#pragma once
+#include "../windissect_forwards.h"
+
+// Reconstructed from twinui.dll by Windissect. 7 member(s).
+namespace ShellMRTHelper {
+class Common {
+public /*unspecified*/:
+    // Category: Method | Source: PDB Internal
+    // Symbol: ?ConvertMsAppXUriToMsResourceUri@Common@ShellMRTHelper@@YAJPEAUHSTRING__@@PEAPEAG@Z
+    long ConvertMsAppXUriToMsResourceUri(HSTRING__*, unsigned short * *);
+    // Category: Method | Source: PDB Internal
+    // Symbol: ?ConvertMsAppXUriToMsResourceUri@Common@ShellMRTHelper@@YAJPEAUIUriRuntimeClass@Foundation@Windows@@PEAPEAG@Z
+    long ConvertMsAppXUriToMsResourceUri(WindissectOpaque *, unsigned short * *);
+    // Category: Accessor | Source: PDB Internal
+    // Symbol: ?HasFileUriScheme@Common@ShellMRTHelper@@YA_NPEAUHSTRING__@@@Z
+    bool HasFileUriScheme(HSTRING__*);
+    // Category: Accessor | Source: PDB Internal
+    // Symbol: ?HasMsAppDataUriScheme@Common@ShellMRTHelper@@YA_NPEAUHSTRING__@@@Z
+    bool HasMsAppDataUriScheme(HSTRING__*);
+    // Category: Accessor | Source: PDB Internal
+    // Symbol: ?HasMsAppXUriScheme@Common@ShellMRTHelper@@YA_NPEAUHSTRING__@@@Z
+    bool HasMsAppXUriScheme(HSTRING__*);
+    // Category: Accessor | Source: PDB Internal
+    // Symbol: ?HasMsResourceUriScheme@Common@ShellMRTHelper@@YA_NPEAUHSTRING__@@@Z
+    bool HasMsResourceUriScheme(HSTRING__*);
+    // Category: Method | Source: PDB Internal
+    // Symbol: ?TryFallbackToFilePath@Common@ShellMRTHelper@@YAJPEAUHSTRING__@@00PEAPEAU3@@Z
+    long TryFallbackToFilePath(HSTRING__*, HSTRING__*, HSTRING__*, HSTRING__* *);
+};
+} // namespace ShellMRTHelper

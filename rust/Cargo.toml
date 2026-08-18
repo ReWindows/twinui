@@ -1,0 +1,8 @@
+[package]
+name = "twinui-sys"
+version = "0.1.0"
+edition = "2021"
+description = "Windissect-generated Rust FFI bindings for twinui.dll. Windows only."
+license = "MIT"
+
+[dependencies]
