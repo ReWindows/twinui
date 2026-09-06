@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "targets": [
+    {
+      "target": "twinui",
+      "file": "twinui.dll",
+      "index": "twinui/index.json",
+      "latest": "321414776-E915A9669E926AAEFF15691C5D54A9DA-1",
+      "build_count": 1
+    }
+  ]
+}
